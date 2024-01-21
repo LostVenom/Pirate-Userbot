@@ -1,7 +1,7 @@
 #! /bin/bash
 
 
-_hellbot_zip () {
+_piratebot_zip () {
     if [[ $PLUGINS_REPO ]]
     then
         echo "https://github.com/${PLUGINS_REPO}/archive/master.zip"
@@ -11,17 +11,17 @@ _hellbot_zip () {
 }
 
 _starter () {
-    echo "••• Downloading HellBot [v3] •••"
-    hellpath="Plugins.zip"
+    echo "ಢಢ Downloading Pirate...."
+    piratepath="Plugins.zip"
 
-    wget -q $(_hellbot_zip) -O "$hellpath"
-    HELLPATH=$(zipinfo -1 "$hellpath" | grep -v "/.");
-    unzip -qq "$hellpath"
-    rm -rf "$hellpath"
-    cd $HELLPATH
+    wget -q $(_hellbot_zip) -O "$piratepath"
+    PIRATEPATH=$(zipinfo -1 "$piratepath" | grep -v "/.");
+    unzip -qq "$piratepath"
+    rm -rf "$piratepath"
+    cd $PIRATEPATH
     python3 ../updater.py ../requirements.txt requirements.txt
 
-    echo "••• Starting HellBot [v3] •••"
+    echo "ಢಢ Starting Pirate...."
     chmod 777 start.sh
     ./start.sh
 }
