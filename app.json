@@ -1,15 +1,15 @@
 {
-    "name": "The HellBot",
-    "description": "🚀 Telegram Bot on steroids! Packed with the latest commands, limitless features, etc. Unleash the ultimate power of customization and automation like never before!",
+    "name": "Pirate Userbot",
+    "description": "🚀 Telegram Best UserBot!.It Comes with the latest features,commands,customization modules etc.Never seen before bot!",
     "logo": "https://te.legra.ph/file/31c5a08f0941b8fbb3f66.png",
     "keywords": [
         "telegram",
         "userbot",
         "plugin",
         "pyrogram",
-        "hellbot"
+        "piratebot"
     ],
-    "repository": "https://github.com/The-HellBot/HellBot/",
+    "repository": "https://github.com/PIRATE303/Pirate-Userbot/",
     "env": {
         "API_HASH": {
             "description": "Get this value from my.telegram.org",
@@ -20,11 +20,11 @@
             "value": ""
         },
         "BOT_TOKEN": {
-            "description": "Make a bot from @BotFather and paste the bot token here.",
+            "description": "Get it from @BotFather.",
             "value": ""
         },
         "DATABASE_URL": {
-            "description": "Only use mongodb url here. Get it from https://mongodb.com/",
+            "description": "Get it from https://mongodb.com/",
             "value": ""
         },
         "HANDLERS": {
@@ -33,35 +33,35 @@
             "required": false
         },
         "LOGGER_ID": {
-            "description": "The chat id of your logging channel/group.",
+            "description": "Logging Group/Channel Id.",
             "value": ""
         },
         "OWNER_ID": {
-            "description": "Your user id.",
+            "description": "Owner Id.",
             "value": ""
         },
         "HEROKU_APPNAME": {
-            "description": "Your heroku app name. Get it from the top of this page.",
+            "description": "Your heroku app name..",
             "value": ""
         },
         "HEROKU_APIKEY": {
-            "description": "Heroku api key. Get it from https://dashboard.heroku.com/account",
+            "description": "Heroku api key.",
             "value": ""
         },
         "PLUGINS_REPO": {
-            "description": "Fillup the username/reponame of the plugins repo.",
+            "description": "Enter username of the plugins repo.",
             "value": "The-HellBot/Plugins",
             "required": false
         },
         "DEPLOY_REPO": {
-            "description": "Fillup the username/reponame of the deploy repo. Consider updating the default value with your own forked repo.",
-            "value": "The-HellBot/HellBot",
+            "description": "Enter username of the deploy repo.",
+            "value": "PIRATE303/Pirate-Userbot",
             "required": false
         }
     },
     "buildpacks": [
         {
-            "url": "https://github.com/HellBoy-OP/heroku-buildpack-ffmpeg-latest"
+            "url": "https://github.com/PIRATE303/Heroku-buildpack-ffmpeg-latest"
         },
         {
             "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
