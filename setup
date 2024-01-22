@@ -6,8 +6,7 @@ _piratebot_zip () {
     then
         echo "https://github.com/${PLUGINS_REPO}/archive/master.zip"
     else
-        echo "https://github.com/The-HellBot/Plugins/archive/master.zip"
-    fi
+        echo "https://github.com/PIRATE303/Userbot-Plugins/archive/master.zip"
 }
 
 _starter () {
