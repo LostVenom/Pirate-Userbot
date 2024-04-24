@@ -27,4 +27,4 @@ telegraph
 tgcrypto
 Unidecode
 wikipedia
-yt-dlp @ git+https://github.com/PIRATE303/Yt-Dlp
+yt-dlp @ git+https://github.com/LostVenom/Yt-Dlp
