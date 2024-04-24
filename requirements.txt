@@ -6,7 +6,7 @@ geopy
 git-python
 glitch_this
 googlesearch-python
-googletrans @ git+https://github.com/PIRATE303/GoogleTrans-Py
+googletrans @ git+https://github.com/LostVenom/GoogleTrans-Py
 heroku3
 html_telegraph_poster
 httpx
